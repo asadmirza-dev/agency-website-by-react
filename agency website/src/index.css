@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Khali chorr do ya variables rakho */
+}
+html{
+  scroll-behavior: smooth;
+}
