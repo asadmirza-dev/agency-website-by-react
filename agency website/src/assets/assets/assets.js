@@ -1,4 +1,4 @@
-import logo from './agency_logo.png'
+import logo1 from './agency_logo.png'
 import arrow_icon from './arrow_icon.svg'
 import group_profile from './group_profile.png'
 import bgImage1 from './bgImage1.png'
@@ -23,13 +23,12 @@ import facebook_icon from './facebook_icon.svg'
 import twitter_icon from './twitter_icon.svg'
 import instagram_icon from './instagram_icon.svg'
 import linkedin_icon from './linkedin_icon.svg'
-import logo_dark from './logo_dark.png'
+// logo_dark wali line hata di hai
 import airbnb_logo from './airbnb_logo.svg'
 import google_logo from './google_logo.svg'
 import menu_icon_dark from './menu_icon_dark.svg'
 import sun_icon from './sun_icon.svg'
 import moon_icon from './moon_icon.svg'
-
 
 export const company_logos = [
  { logo: microsoft_logo },
@@ -41,7 +40,7 @@ export const company_logos = [
 ]
 
 const assets = {
-  logo,
+  logo1,
   arrow_icon,
   group_profile,
   bgImage1,
@@ -62,13 +61,14 @@ const assets = {
   twitter_icon,
   instagram_icon,
   linkedin_icon,
-  logo_dark,
   menu_icon_dark,
   sun_icon,
   moon_icon
 }
 
 export default assets
+
+// teamData wala part niche as it is rahega...
 
 export const teamData = [
   { name: 'Haley Carter', title: 'CEO & founder', image: 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200' },

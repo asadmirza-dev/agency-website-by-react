@@ -7,7 +7,7 @@ const Navbar = ({ theme, setTheme }) => {
   return (
     <nav className='flex items-center justify-between bg-white/90 dark:bg-[#0f172a]/90 h-20 px-6 md:px-12 lg:px-24 sticky top-0 z-50 backdrop-blur-md transition-all duration-300 dark:border-b dark:border-gray-800'>
       <img 
-        src={assets.logo} 
+        src={assets.logo1} 
         alt="Agency Logo" 
         className='w-40 sm:w-48 lg:w-56 cursor-pointer' 
       />
