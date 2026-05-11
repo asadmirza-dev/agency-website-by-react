@@ -15,7 +15,7 @@ const Navbar = ({ theme, setTheme }) => {
 
   max-sm:fixed max-sm:inset-y-0 max-sm:right-0 max-sm:top-0 max-sm:h-[70vh] max-sm:rounded-b-2xl max-sm:w-[280px] 
   max-sm:flex max-sm:flex-col max-sm:bg-blue-400  max-sm:text-white 
-  max-sm:pt-28 max-sm:px-10 max-sm:z-[999] max-sm:shadow-2xl 
+  max-sm:pt-28 max-sm:px-10 max-sm:z-[999] max-sm:shadow-2xl  max-sm:overflow-x-hidden
   transition-all duration-500 ease-in-out flex items-center gap-8
   ${Ismenuopen ? 'max-sm:translate-x-0' : 'max-sm:translate-x-full'}
   sm:static sm:flex-row sm:text-gray-600 dark:sm:text-gray-300
