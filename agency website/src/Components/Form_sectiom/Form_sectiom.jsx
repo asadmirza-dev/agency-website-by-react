@@ -30,8 +30,8 @@ const Form_sectiom = ({title,subtitle}) => {
     <div id='contact' className='w-full flex flex-col items-center justify-center gap-10 min-h-[70vh]'>
        <h1 className='text-4xl font-bold text-center text-gray-700 dark:text-white'>{title}</h1>
       <p className='text-xl text-gray-600 dark:text-gray-300 font-medium text-center mt-4'>{subtitle}</p>
-      <form className=' flex flex-col items-center justify-center gap-6' onSubmit={onSubmit}>
-      <div className="form-sec-1 flex items-center gap-6 w-full">
+      <form className=' flex flex-col items-center justify-center gap-6 max-sm:w-[100%] max-sm:flex-wrap max-sm:flex' onSubmit={onSubmit}>
+      <div className="form-sec-1 flex items-center gap-6 w-full sm:flex-row flex-col">
           <div className="sec-1 flex flex-col gap-2 items-start relative">
             <label htmlFor="For Name" className='text-gray-600 font-bold text-2xl' >For Name</label>
             <input type="text" placeholder='Enter Your Name' name='name' className='w-90 px-4  pl-12 py-4 text-xl border font-medium border-gray-300 rounded-lg  text-gray-700 dark:text-white' />

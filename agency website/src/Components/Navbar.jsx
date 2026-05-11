@@ -11,20 +11,22 @@ const Navbar = ({ theme, setTheme }) => {
         alt="Agency Logo" 
         className='w-40 sm:w-48 lg:w-56 cursor-pointer' 
       />
-      <div className={`
-        flex items-center gap-8 transition-all duration-500 ease-in-out
-        max-sm:fixed max-sm:top-0 max-sm:bottom-0 max-sm:right-0 max-sm:w-64 
-        max-sm:flex-col max-sm:bg-blue-600 max-sm:text-white max-sm:pt-24 max-sm:z-10
-        ${Ismenuopen ? 'max-sm:translate-x-0 shadow-2xl' : 'max-sm:translate-x-full'}
-        sm:static sm:h-auto sm:w-auto sm:bg-transparent sm:flex-row sm:translate-x-0 sm:text-gray-600 dark:sm:text-gray-300
-      `}>
+    <div className={`
+
+  max-sm:fixed max-sm:inset-y-0 max-sm:right-0 max-sm:top-0 max-sm:h-[70vh] max-sm:rounded-b-2xl max-sm:w-[280px] 
+  max-sm:flex max-sm:flex-col max-sm:bg-blue-400  max-sm:text-white 
+  max-sm:pt-28 max-sm:px-10 max-sm:z-[999] max-sm:shadow-2xl 
+  transition-all duration-500 ease-in-out flex items-center gap-8
+  ${Ismenuopen ? 'max-sm:translate-x-0' : 'max-sm:translate-x-full'}
+  sm:static sm:flex-row sm:text-gray-600 dark:sm:text-gray-300
+`}>
         
-        <button 
-          className="absolute top-6 right-6 sm:hidden" 
-          onClick={() => setIsmenuopen(false)}
-        >
-          <img src={assets.close_icon} alt="Close" className="w-6 invert" />
-        </button>
+       <button 
+    className="absolute top-6 right-8 sm:hidden p-2 bg-white/10 rounded-full" 
+    onClick={() => setIsmenuopen(false)}
+  >
+    <img src={assets.close_icon} alt="Close" className="w-6 invert" />
+  </button>
 
         <a href="#home" onClick={() => setIsmenuopen(false)} className='hover:text-blue-500 sm:dark:hover:text-blue-400 transition-colors'>Home</a>
         <a href="#social" onClick={() => setIsmenuopen(false)} className='hover:text-blue-500 sm:dark:hover:text-blue-400 transition-colors'>Social</a>

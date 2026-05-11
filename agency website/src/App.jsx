@@ -26,31 +26,26 @@ const App = () => {
       <div className="bg-white dark:bg-[#0f172a] min-h-screen">
         
         <Navbar theme={theme} setTheme={setTheme} />
-        <main className="w-full flex flex-col gap-20 overflow-x-hidden">
+        <main className="w-full overflow-x-hidden">
           <Hero_section />          
           
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col gap-24">
+          <div className="w-full flex flex-col gap-16 sm:gap-24 px-5 sm:px-10 md:px-20">
             <Social_icons />
-            
             <Advertising_Section 
               title={'How Can We Help You?'} 
-              subtitle={'Our team of experts combines creativity and technology to deliver innovative solutions.'} 
-            />
+              subtitle={'Our team of experts combines creativity and technology to deliver innovative solutions.'} />
             
             <Work_section 
               title={'Our Latest Work'} 
-              subtitle={'We offer a wide range of services to help you reach your goals.'} 
-            />
+              subtitle={'We offer a wide range of services to help you reach your goals.'} />
             
             <Profiles 
               title={'Meet The team'} 
-              subtitle={'Our team of experts combines creativity and technology to deliver innovative solutions.'} 
-            />
+              subtitle={'Our team of experts combines creativity and technology to deliver innovative solutions.'} />
             
             <Form_sectiom 
               title={'Reach to us'} 
-              subtitle={'Have questions or want to learn more? Fill out the form below.'} 
-            />
+              subtitle={'Have questions or want to learn more? Fill out the form below.'} />
           </div>
 
           <Footer />
