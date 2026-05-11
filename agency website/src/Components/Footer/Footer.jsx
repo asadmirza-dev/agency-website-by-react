@@ -10,10 +10,10 @@ const Footer = () => {
         <p className='text-gray-500 text-2xl sm:text-xl font-medium w-[60%] max-sm:w-full'>From concept to creation, we bring your ideas to life. We are a team of experienced designers and developers who are passionate..</p>
         <div className="social_links flex items-center gap-6 mt-7 sm:text-sm max-sm:flex-wrap max-sm:justify-center">
             <a href="#home" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>Home</a>
-            <a href="#home" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>About</a>
-            <a href="#home" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>Services</a>
-            <a href="#home" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>Portfolio</a>
-            <a href="#home" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>Contact</a>
+            <a href="#social" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>About</a>
+            <a href="#services" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>Services</a>
+            <a href="#work" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>Portfolio</a>
+            <a href="#contact" className='hover:border-b-2 hover:border-blue-600 font-medium text-2xl text-gray-600'>Contact</a>
         </div>
       </div>
       <div className="footer-right w-[30%] flex flex-col items-start justify-start gap-4 max-sm:items-center max-sm:w-full">

@@ -5,7 +5,7 @@ const Social_icons = () => {
   return (
     <div id='social' className='w-full flex flex-col items-center justify-center gap-10 mt-20 min-h[50vh]'>
       <h1 className='text-2xl text-gray-700 dark:text-white font-medium'>Trusted By Leading Companies</h1>
-      <div className="social_imges flex items-center gap-10 justify-center min-h-40 max-sm:flex-wrap">
+      <div className="social_imges flex flex-wrap items-center gap-10 justify-center min-h-40 ">
     {company_logos.map((logo,index)=>(
       <img 
         src={logo.logo} 
